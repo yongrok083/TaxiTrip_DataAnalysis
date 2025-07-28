@@ -53,16 +53,16 @@ data['payment_method'] = data['payment_method'].apply(lambda x: 'Card' if 'Card'
 data['trip_duration'] = (dropoff - pickup).dt.total_seconds()
 
 ## 📊 3. 파생 변수 생성
-fare_per_min: 분당 요금
+- fare_per_min: 분당 요금
 
-fare_per_km: km당 요금
+- fare_per_km: km당 요금
 
-pickup_hour: 승차 시각 (시간 단위)
+- pickup_hour: 승차 시각 (시간 단위)
 
 ## 📈 4. 데이터 시각화
-Boxplot: 요금 이상치 시각화
+- Boxplot: 요금 이상치 시각화
 
-Scatterplot: fare_amount와 trip_duration의 관계
+- Scatterplot: fare_amount와 trip_duration의 관계
 
-Histplot: 시간대별 탑승 분포
+- Histplot: 시간대별 탑승 분포
 
