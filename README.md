@@ -24,6 +24,30 @@
 
 ---
 
+# 🚕 택시 데이터 분석 프로젝트
+
+이 프로젝트는 NYC 택시(trip.csv) 데이터를 활용하여 **주행 시간**, **요금**, **거리**, **시간대별 패턴** 등을 분석하는 작업입니다.
+
+---
+
+## 📁 데이터셋 설명
+
+- `trip.csv` 파일에는 다음과 같은 열이 포함되어 있습니다:
+
+| 컬럼명 | 설명 |
+|--------|------|
+| `passenger_name` | 승객 이름 (전처리에서 제거됨) |
+| `tpep_pickup_datetime` | 승차 시간 |
+| `tpep_dropoff_datetime` | 하차 시간 |
+| `payment_method` | 결제 수단 (현금, 카드 등) |
+| `passenger_count` | 탑승 인원 수 |
+| `trip_distance` | 주행 거리 (단위: km) |
+| `fare_amount` | 기본 요금 |
+| `tip_amount` | 팁 |
+| `tolls_amount` | 통행료 |
+
+---
+
 ## 🧹 1. 데이터 전처리
 
 - **불필요한 열 제거**:
